@@ -1,5 +1,65 @@
 .Dictionary {
-  max-width: 600px;
-  margin: 60px auto;
-  background-color: red;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.DictionaryHeader {
+  background-color: #f0d330;
+  width: 100%;
+  padding: 20px;
+  height: 250px;
+  border-radius: 23px;
+  font-family: "Habibi", serif;
+  text-align: center;
+  color: #fff;
+}
+
+.DictionaryHeader h1 {
+  font-size: 52px;
+}
+
+.SearchBox {
+  width: 70%;
+  border-radius: 28px;
+  border: none;
+  padding: 10px 0px 10px 40px;
+  height: 60px;
+  margin: 15px auto;
+  color: rgba(178, 154, 17, 0.66);
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: rgba(178, 154, 17, 0.33);
+  font-size: 20px;
+}
+
+.Definition {
+  width: 100%;
+  padding: 20px;
+  background-color: #f2f1f1;
+  border-radius: 23px;
+  margin-top: -50px;
+  font-family: "Habibi", serif;
+}
+
+.Definition h2 {
+  font-size: 36px;
+  color: #3b3b3b;
+  text-transform: capitalize;
+}
+
+.Definition h3 {
+  font-size: 24px;
+  color: rgba(103, 103, 103, 1);
+}
+
+p {
+  color: rgba(103, 103, 103, 0.7);
+  font-size: 18px;
+}
+
+em {
+  color: #92811e;
 }
