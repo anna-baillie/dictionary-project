@@ -2,6 +2,7 @@
   max-width: 700px;
   margin: 40px auto;
   padding: 20px;
+  z-index: 10;
 }
 
 .DictionaryHeader {
@@ -37,11 +38,12 @@ input::placeholder {
 
 .Definition {
   width: 100%;
-  padding: 20px;
+  padding: 20px 20px 30px 20px;
   background-color: #f2f1f1;
   border-radius: 23px;
   margin-top: -50px;
   font-family: "Habibi", serif;
+  z-index: 4;
 }
 
 .Definition h2 {
@@ -74,4 +76,18 @@ em {
   margin: 8px 8px 0 0;
   border-radius: 10px;
   display: inline-block;
+}
+
+.Photos {
+  max-width: 700px;
+  margin: -40px auto;
+  margin-bottom: 10px;
+  padding: 30px;
+  background-color: #f0d330;
+  border-radius: 20px;
+}
+
+.Photos img {
+  border-radius: 10px;
+  margin: 8px auto;
 }
