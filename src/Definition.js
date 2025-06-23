@@ -12,6 +12,7 @@ export default function Definition(props) {
           return (
             <div key={index}>
               <Meaning meaning={meaning} />
+              <br />
             </div>
           );
         })}
